@@ -1,4 +1,7 @@
-
+nav {
+  padding: 2em;
+  font-size: x-large;
+}
 body {
   background-color: red;
 }
