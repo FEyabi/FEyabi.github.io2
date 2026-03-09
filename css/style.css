@@ -3,6 +3,22 @@ nav {
   font-size: x-large;
 }
 
+body {
+  min-height: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  font-family: "Georgia";
+  font-size: large;
+}
+
+h1 {
+  font-family: "Monaco";
+}
+
 a {
   text-decoration: none;
   color: #8f4e8d;
@@ -14,28 +30,57 @@ a:hover {
   color: goldenrod;
 }
 
-body {
-  background-color: red;
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0 0 0;
 }
 
-h1 {
-  color: white;
+.lead h1 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.lead h2 {
   text-align: center;
+  font-family: "Monaco";
+  font-size: x-large;
+  margin-top: 0;
 }
 
-h2 {
-  text-align: center;
+.lead img {
+  width: 320px;
+  border-radius: 50%;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+.contact {
+  word-spacing: 0.3rem;
+  margin-top: 0.5rem;
+  padding-bottom: 1rem;
 }
 
-img {
-  width: 300px;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 3rem 0 0 0rem;
+  flex-wrap: wrap;
+}
+
+.top-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.about p {
+  background-color: #FFFFFF;
+  padding: 1rem 0 1rem 0;
+  margin: 0;
+}
+
+.about i {
+  display: inline;
 }
