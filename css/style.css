@@ -101,18 +101,15 @@ a:hover {
 }
 
 .content-wrapper {
-  display: flex;
-  flex-direction: column;
   width: 40%;
-  padding: 3rem 0 0 0rem;
-  flex-wrap: wrap;
 }
 
 .top-wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-start:
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .about p {
@@ -123,4 +120,14 @@ a:hover {
 
 .about i {
   display: inline;
+}
+.profile {
+  width: 40%;
+  text-align: center;
+}
+
+.profile img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
 }
