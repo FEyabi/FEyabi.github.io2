@@ -3,6 +3,44 @@ nav {
   font-size: large;
   text-align: center;
 }
+.menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+}
+
+/* Menu links */
+
+.menu li a {
+display: block;
+color: black;
+padding: 10px 16px;
+text-decoration: none;
+}
+
+
+.menu li a:hover {
+background-color: #555;
+color: white;
+}
+
+
+.submenu {
+display: none;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+
+
+.dropdown:hover .submenu {
+display: block;
+}
+
+
 
 body {
   min-height: 100%;
