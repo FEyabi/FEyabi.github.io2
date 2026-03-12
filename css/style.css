@@ -160,3 +160,11 @@ a:hover {
   line-height: 1.6;
   font-size: 1.2rem;
 }
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+    object-fit: contain;
+}
