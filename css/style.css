@@ -1,7 +1,57 @@
-nav {
-  padding: 2em 3em;
-  font-size: 1.1rem;
-  text-align: center;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background-color: transparent;
+}
+
+/* Left side name/logo */
+.nav-left {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* Right side links */
+.nav-right {
+  display: flex;
+  gap: 30px;
+  font-size: 1.2rem;
+}
+
+/* Remove purple */
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #666;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.dropdown-content a {
+  padding: 12px;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 body {
