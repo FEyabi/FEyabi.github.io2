@@ -34,20 +34,29 @@
 /* Dropdown */
 .dropdown {
   position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  display: inline-block;
+  cursor: pointer;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 30px;
+  top: 100%;
+  left: 0;
   background-color: white;
   min-width: 180px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  z-index: 1000;
 }
 
 .dropdown-content a {
-  padding: 12px;
   display: block;
+  padding: 12px;
+  white-space: nowrap;
 }
 
 .dropdown:hover .dropdown-content {
