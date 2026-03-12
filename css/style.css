@@ -27,6 +27,7 @@ color: white;
 }
 
 
+
 .submenu {
 display: none;
 list-style-type: none;
@@ -52,6 +53,8 @@ body {
   padding: 0;
   font-family: "Helvetica";
   font-size: large;
+  background-color: #e3e3e3;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
