@@ -5,12 +5,10 @@
   padding: 25px 60px;
   background-color: transparent;
 }
-
 .nav-left {
   font-size: 1.6rem;
   font-weight: bold;
 }
-
 .nav-right {
   display: flex;
   gap: 30px;
@@ -26,7 +24,6 @@
 .navbar a:hover {
   color: #666;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -36,7 +33,6 @@
   display: inline-block;
   cursor: pointer;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -47,7 +43,6 @@
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   z-index: 1000;
 }
-
 .dropdown-content a {
   display: block;
   padding: 12px;
@@ -57,7 +52,6 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 body {
   min-height: 100%;
   max-width: 100%;
@@ -68,13 +62,11 @@ body {
   font-size: large;
   color: #111;
 }
-
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.3rem;
   margin-bottom: 0.5rem;
 }
-
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
@@ -145,11 +137,9 @@ a:hover {
   min-width: 300px;
   padding-top: 2rem;
 }
-
 .content-wrapper div {
   margin-bottom: 3rem;
 }
-
 .about p {
   background-color: transparent;
   padding: 0;
@@ -157,14 +147,12 @@ a:hover {
   line-height: 1.6;
   font-size: 1.2rem;
 }
-
 #projects p,
 #contact p {
   margin: 0;
   line-height: 1.6;
   font-size: 1.2rem;
 }
-
 .logo {
   width: 40px;
   height: auto;
